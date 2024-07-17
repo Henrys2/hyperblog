@@ -5,3 +5,4 @@ en bogota
 viene al xd
 hola mundo
 y planetas
+add_a_photo
