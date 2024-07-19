@@ -10,9 +10,9 @@ body
 
 #cabecera
 {
-    background: rgba(23, 23, 24, 0);
+    background: rgb(67, 40, 188);
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     border: 1px #100f0f;
     margin: 0;
@@ -37,6 +37,7 @@ body
 
 #container h1
 {
+    color: rgb(14, 13, 13);
     font-size: 20px;
 }
 #post
