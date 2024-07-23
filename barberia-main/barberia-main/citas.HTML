@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva de citas - Barbería</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="imagen-logo">
+    <a href="index.html"><img src="logo.png" width="100px"></a>
+ 
+    </div>
+  <div class="container">
+    <h2>Reserva tu cita</h2>
+    <form id="appointmentForm">
+      <div class="form-group">
+        <label for="barber">Selecciona tu barbero:</label>
+        <select id="barber" name="barber" required>
+          <option value="">Selecciona un barbero</option>
+          <option value="john">John</option>
+          <option value="mike">Mike</option>
+          <option value="steve">Steve</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="date">Fecha:</label>
+        <input type="date" id="date" name="date" min="2024-06-18" required>
+      </div>
+      <div class="form-group">
+        <label for="time">Hora:</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Reservar cita</button>
+      </div>
+    </form>
+    <div id="confirmation" class="hidden">
+      <h3>¡Tu cita ha sido reservada!</h3>
+      <p>Barbero: <span id="confirmBarber"></span></p>
+      <p>Fecha: <span id="confirmDate"></span></p>
+      <p>Hora: <span id="confirmTime"></span></p>
+    </div>
+  </div>
+  <footer class="footer">
+    <ul class="social-icon">
+      <li class="icon-elem">
+        <a href="" class="icon">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+      </li>
+      <li class="icon-elem">
+        <a href="" class="icon">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </li>
+      <li class="icon-elem">
+        <a href="" class="icon">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+      </li>
+      <li class="icon-elem">
+        <a href="" class="icon">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </li>
+      <li class="icon-elem">
+        <a href="" class="icon">
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
+      </li>
+    </ul>
+    <p class="text" style="font-size: 20px;">Más que un corte de cabello, una experiencia única. Visítanos en STREET BARBER</p>
+    <p class="text">@2024 | Todos los derechos reservados</p>
+  </footer>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* Estilos generales */
+body{
+    
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #c92424;
+    margin: 0;
+    padding: 0;
+ }
+ .imagen-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="date"],
+  input[type="time"],
+  select {
+    width: 100%;
+    padding: 1px;
+    font-size: 16px;
+    border: 1px solid #ccccccd2;
+    border-radius: 4px;
+  }
+  
+  button {
+    
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.151);
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #confirmation {
+    background-color: #f0f0f01e;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  #confirmation h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  #confirmation p {
+    margin: 10px 0;
+  }
+  
+  #confirmation p span {
+    font-weight: bold;
+  }
+  .footer {
+    position: relative;
+    width: 100%;
+    background: #35363371;
+    min-height: 30px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+  }
+  
+  .icon-elem {
+    list-style: none;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+  }
+  
+  .icon:hover {
+    transform: translateY(-10px);
+  }
+  
+  .text {
+    color: white;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  

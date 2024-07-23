@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ nav{
+   text-align: right;
+   padding: 30px 50px 0 0;    
+}
+nav >a{
+   color: white;
+   font-weight: 300;
+   text-decoration: none;
+   margin-right: 10px;
+}
+
+nav >a :hover{
+   text-decoration: underline;
+}
+ .titulo  {
+    
+    color:aliceblue;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.imagen-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+ .imagenes-p{
+   display: flex;
+ 
+}
+
+.imagenes-p img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+   border-radius: 40px;
+}
+
+.imagenes-p img:hover {
+  cursor: pointer;
+  height: 100%;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+    
+ }
+.descripcion{
+  max-width: 1500px;
+ 
+   margin: 50px auto;
+  background:linear-gradient(rgba(241, 243, 247, 0.63), rgba(15, 45, 104, 0.411));
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   line-height: .5;
+   text-align: center;
+   color: rgba(20, 10, 10, 0.918);
+   font-size: 20px;
+}
+
+input[type="submit"] {
+  font-size: 40PX;
+  display: block;
+  margin: 100px auto;
+  padding: 20px 150px;
+  background-color: #416388c0;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.footer {
+  position: relative;
+  width: 100%;
+  background: #35363371;
+  min-height: 30px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+
+.icon-elem {
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+}
+
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
